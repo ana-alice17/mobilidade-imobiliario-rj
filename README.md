@@ -1,7 +1,8 @@
 # Mobilidade e mercado imobiliário no Rio de Janeiro
 
 Trabalho de AEDV — FGV EMAp, 2026.2. Transações residenciais do ITBI de 2011–2024 e Metrô, BRT, VLT e BRS.
-
+## Apoio Visual para o Segundo Marco:
+- `https://canva.link/q7hssai3iz5cr3n`
 ## Organização
 
 - `notebooks/01_itbi.ipynb`: preparação e geocodificação — Mayara.

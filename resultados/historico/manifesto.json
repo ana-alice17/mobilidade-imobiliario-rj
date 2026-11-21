@@ -1,0 +1,15 @@
+{
+  "periodo": "2011–2024",
+  "limite_principal_m": 1000,
+  "modais": {
+    "Metrô": "dist_walk_metro_m",
+    "BRT": "dist_walk_brt_m",
+    "VLT": "dist_walk_vlt_m"
+  },
+  "n_amostra": 318709,
+  "amostra_comum_tres_modalidades": 165171,
+  "janelas": "BRT a partir de 2013 e VLT a partir de 2017 (ano seguinte à inauguração cadastrada); Metrô todo o período.",
+  "brs": "Fora deste recorte: cadastro verificável apenas em 2024 (descritiva_proposta).",
+  "definicao": "Perto: percurso a pé até o acesso de até 1000 m; longe: percurso maior entre classificáveis.",
+  "unidade": "Reais de dezembro de 2024 por m²; variância em (R$/m²)²."
+}

@@ -1,4 +1,4 @@
-# Ambiente Python
+# Ambientes e temporários Python
 .venv/
 .validacao-deps/
 .validacao-jupyter/
@@ -6,13 +6,24 @@ __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 
-# Dados e caches: pesados demais para o git (CSVs > 100 MB, rede OSM ~130 MB).
-# Acompanham o zip de entrega e podem ser reobtidos das fontes citadas no README.
-data/
-cache/
+# Processamento regenerável; preservar bases finais .csv.gz e .gpkg
+/cache/
+/data/intermediate/
+/data/processed/*.csv
+/saida_itbi_2011_2024/
 
-# Pacotes e artefatos locais
+# Arquivo GTFS original é uma fonte, não um temporário
 *.zip
+!/data/raw/brs_gtfs_rio_2024_04_29.zip
+
+# Referências auxiliares que não integram o fluxo padrão
+/data/raw/brs_pontos_oficiais_2026.geojson
+/data/raw/brs_pontos_manifesto.json
+
+# Arquivos temporários e saídas visuais regeneráveis
 *.sqlite*
 *.log
-saida_itbi_2011_2024/
+~$*
+.DS_Store
+Thumbs.db
+/resultados/mapa_transportes.png

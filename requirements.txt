@@ -1,5 +1,4 @@
 # Ambiente de análise (Python 3.12 ou mais recente).
-# Dependabot propõe atualizações; o workflow confere as análises antes da integração.
 pandas==3.1.0
 numpy==2.5.4
 matplotlib==3.11.2
@@ -11,3 +10,5 @@ ipykernel==7.4.0
 packaging==26.3
 Markdown==3.11.2
 ipywidgets==8.1.9
+pyproj==3.8.0
+shapely==2.2.0

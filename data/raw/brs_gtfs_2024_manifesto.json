@@ -1,0 +1,270 @@
+{
+  "consulta_utc": "2026-10-28T21:32:34.117367+00:00",
+  "catalogo": "https://portal.transport-data.org/@tumi/gtfs-rio-de-janeiro",
+  "fonte_original": "https://www.data.rio/datasets/8ffe62ad3b2f42e49814bf941654ea6c/about",
+  "resource": {
+    "cache_last_updated": null,
+    "cache_url": null,
+    "created": "2026-08-12T15:51:23.248084",
+    "datastore_active": false,
+    "description": null,
+    "format": "ZIP",
+    "hash": "",
+    "hide_preview": false,
+    "id": "28d83b32-8f1a-44d1-a485-3dd4c922faae",
+    "is_new": true,
+    "last_modified": null,
+    "metadata_modified": "2026-08-12T15:51:23.814197",
+    "mimetype": null,
+    "mimetype_inner": null,
+    "name": "gtfs_rio-de-janeiro_29_4_2024.zip",
+    "package_id": "cfbab80c-294d-4c72-8c54-b8c24413037b",
+    "position": 1,
+    "resource_type": "data",
+    "size": 25040776,
+    "state": "active",
+    "url": "https://ckan.tdc.prod.datopian.com/dataset/cfbab80c-294d-4c72-8c54-b8c24413037b/resource/28d83b32-8f1a-44d1-a485-3dd4c922faae/download/gtfs-rio-de-janeiro-29-4-2024-zgfw1k.zip",
+    "url_type": "upload"
+  },
+  "licenca_catalogo": "Creative Commons Attribution-NonCommercial 4.0",
+  "sha256": "66e33afddae7319735ec48d6f35503712abf8fc906c6559a1e269fb112a1416a",
+  "feed_info": [
+    {
+      "feed_publisher_name": "Secretaria Municipal de Transportes",
+      "feed_publisher_url": "http://transportes.prefeitura.rio",
+      "feed_lang": "pt",
+      "feed_start_date": 20240101,
+      "feed_end_date": 20241231,
+      "feed_version": "01Q0424",
+      "feed_contact_email": "guilherme.alves@rio.rj.gov.br"
+    }
+  ],
+  "n_stops": 7554,
+  "n_brs_nome_explicito": 255,
+  "criterio": "stop_name contém BRS (case insensitive), sem inferir paradas a partir de corredores.",
+  "metadados_catalogo": {
+    "help": "https://ckan.tdc.prod.datopian.com/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+      "author": null,
+      "author_email": null,
+      "contributors": [],
+      "creator_user_id": "dcd53e48-84d2-4e23-8fcf-e17817332742",
+      "data_access": "Publicly available",
+      "data_provider": "TUMI Data Hub",
+      "frequency": "as_needed",
+      "geographies": [
+        "bra"
+      ],
+      "id": "cfbab80c-294d-4c72-8c54-b8c24413037b",
+      "indicators": [],
+      "is_archived": false,
+      "isopen": false,
+      "language": "en",
+      "license_id": "CC-BY-NC-4.0",
+      "license_title": "Creative Commons Attribution-NonCommercial 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "maintainer": null,
+      "maintainer_email": null,
+      "metadata_created": "2026-06-05T08:52:22.947427",
+      "metadata_modified": "2026-08-12T15:51:23.803530",
+      "modes": [
+        "bus",
+        "transit-rail"
+      ],
+      "name": "gtfs-rio-de-janeiro",
+      "notes": "<p>General Transit Feed Specification (GTFS) for the city of Rio de Janeiro, Brazil.</p>",
+      "num_resources": 2,
+      "num_tags": 4,
+      "organization": {
+        "id": "aaa35117-3080-4737-b8ab-38e5fb22136e",
+        "name": "tumi",
+        "title": "Transformative Urban Mobility Initiative (TUMI)",
+        "type": "organization",
+        "description": "TUMI (Transformative Urban Mobility Initiative) is the leading global implementation initiative on sustainable mobility formed through the union of 11 prestigious partners. We are united in one goal: changing mobility for the benefit of people and the environment, with a view to the future.\n\nWith TUMI, the German Federal Ministry for Economic Cooperation and Development (BMZ) is supporting climate-friendly, inclusive, safe and affordable Mobility in cities. TUMI is funded by BMZ and implemented by GIZ in collaboration with all TUMI partners.",
+        "image_url": "tumi-logo-rgb-brightbg-z6wsoq.png",
+        "created": "2025-02-25T16:04:22.881215",
+        "is_organization": true,
+        "approval_status": "approved",
+        "state": "active"
+      },
+      "overview_text": "<p>This dataset was originally available on TUMI Data Hub.</p><p></p><p>The General Transit Feed Specification (GTFS) for the city of Rio de Janeiro, Brazil, also known as GTFS static or static transit to differentiate it from the GTFS realtime extension, defines a common format for public transportation schedules and associated geographic information. The dataset has been validated through the Canonical GTFS Schedule Validator ([GTFS Schedule Validator](https://gtfs-validator.mobilitydata.org/)). However, users should note that the file may still contain errors or become outdated over time. To analyze and view the dataset, it is recommended to use the [TUMI GTFS Analyzer - Not currently suported](http://gtfs.apps.tumidata.org/). This tool facilitates a deeper understanding of the data through several analysis features.</p><p></p><p>More recent data may be available at source.</p><p></p><p>This dataset was scouted as part of a data sourcing project conducted by TUMI.</p><p></p><p>License information might be outdated: Check original source for current licensing.</p>",
+      "owner_org": "aaa35117-3080-4737-b8ab-38e5fb22136e",
+      "private": false,
+      "regions": [
+        "ame_s"
+      ],
+      "related_datasets": [],
+      "sectors": [
+        "road",
+        "rail"
+      ],
+      "services": [
+        "passenger"
+      ],
+      "state": "active",
+      "tdc_category": "community",
+      "temporal_coverage_end": "2024-04-29",
+      "temporal_coverage_start": "2024-04-29",
+      "title": "GTFS: Rio de Janeiro, Brazil, 2024",
+      "topics": [
+        "public-transportation"
+      ],
+      "type": "dataset",
+      "units": [],
+      "url": "https://www.data.rio/datasets/8ffe62ad3b2f42e49814bf941654ea6c/about",
+      "version": null,
+      "extras": [
+        {
+          "key": "source_ckan_instance",
+          "value": "TUMI Data Hub"
+        },
+        {
+          "key": "source_dataset_id",
+          "value": "d0978152-4bbc-4162-810b-7478c9f2b0f7"
+        },
+        {
+          "key": "source_dataset_name",
+          "value": "gtfs-rio-de-janeiro"
+        }
+      ],
+      "groups": [
+        {
+          "description": "",
+          "display_name": "Brazil",
+          "id": "e40d30a1-cb39-49d6-be2a-c7f82146696d",
+          "image_display_url": "https://ckan.tdc.prod.datopian.com/uploads/group/BR.png",
+          "name": "bra",
+          "title": "Brazil"
+        },
+        {
+          "description": "",
+          "display_name": "Public Transportation",
+          "id": "1903f8db-fb22-45c7-b945-32e43f238479",
+          "image_display_url": "https://ckan.tdc.prod.datopian.com/uploads/group/2024-11-28-205104.640803public-transport.png",
+          "name": "public-transportation",
+          "title": "Public Transportation"
+        },
+        {
+          "description": "",
+          "display_name": "South America",
+          "id": "29e01752-2065-48a7-922d-2278ea622cb8",
+          "image_display_url": "",
+          "name": "ame_s",
+          "title": "South America"
+        }
+      ],
+      "resources": [
+        {
+          "cache_last_updated": null,
+          "cache_url": null,
+          "created": "2026-08-12T15:51:22.655708",
+          "datastore_active": false,
+          "description": null,
+          "format": "ZIP",
+          "hash": "",
+          "hide_preview": false,
+          "id": "718008ac-95f8-49f4-8093-c0ba719517bc",
+          "is_new": true,
+          "last_modified": null,
+          "metadata_modified": "2026-08-12T15:51:23.227057",
+          "mimetype": null,
+          "mimetype_inner": null,
+          "name": "gtfs_rio-de-janeiro_14_4_2024.zip",
+          "package_id": "cfbab80c-294d-4c72-8c54-b8c24413037b",
+          "position": 0,
+          "resource_type": "data",
+          "size": 24659960,
+          "state": "active",
+          "url": "https://ckan.tdc.prod.datopian.com/dataset/cfbab80c-294d-4c72-8c54-b8c24413037b/resource/718008ac-95f8-49f4-8093-c0ba719517bc/download/gtfs-rio-de-janeiro-14-4-2024-rymknk.zip",
+          "url_type": "upload"
+        },
+        {
+          "cache_last_updated": null,
+          "cache_url": null,
+          "created": "2026-08-12T15:51:23.248084",
+          "datastore_active": false,
+          "description": null,
+          "format": "ZIP",
+          "hash": "",
+          "hide_preview": false,
+          "id": "28d83b32-8f1a-44d1-a485-3dd4c922faae",
+          "is_new": true,
+          "last_modified": null,
+          "metadata_modified": "2026-08-12T15:51:23.814197",
+          "mimetype": null,
+          "mimetype_inner": null,
+          "name": "gtfs_rio-de-janeiro_29_4_2024.zip",
+          "package_id": "cfbab80c-294d-4c72-8c54-b8c24413037b",
+          "position": 1,
+          "resource_type": "data",
+          "size": 25040776,
+          "state": "active",
+          "url": "https://ckan.tdc.prod.datopian.com/dataset/cfbab80c-294d-4c72-8c54-b8c24413037b/resource/28d83b32-8f1a-44d1-a485-3dd4c922faae/download/gtfs-rio-de-janeiro-29-4-2024-zgfw1k.zip",
+          "url_type": "upload"
+        }
+      ],
+      "sources": [
+        {
+          "title": "GTFS do Rio de Janeiro",
+          "url": "https://www.data.rio/datasets/8ffe62ad3b2f42e49814bf941654ea6c/about"
+        }
+      ],
+      "tags": [
+        {
+          "display_name": "brazil",
+          "id": "5e10c0e4-3fb9-4fb0-8be5-654a4299f3f6",
+          "name": "brazil",
+          "state": "active",
+          "vocabulary_id": null
+        },
+        {
+          "display_name": "city-of-rio-de-janeiro",
+          "id": "394974d3-0fc1-4552-894b-ba499b1ed39c",
+          "name": "city-of-rio-de-janeiro",
+          "state": "active",
+          "vocabulary_id": null
+        },
+        {
+          "display_name": "gtfs",
+          "id": "59e20d0f-0566-46b4-97cb-822828c7c9a6",
+          "name": "gtfs",
+          "state": "active",
+          "vocabulary_id": null
+        },
+        {
+          "display_name": "tumi-data",
+          "id": "149d7a19-56a5-4e60-88b2-ca7a1dd15be0",
+          "name": "tumi-data",
+          "state": "active",
+          "vocabulary_id": null
+        }
+      ],
+      "relationships_as_subject": [],
+      "relationships_as_object": []
+    }
+  },
+  "datas_arquivos_zip": {
+    "feed_info.txt": [
+      2024,
+      4,
+      29,
+      16,
+      49,
+      52
+    ],
+    "stops.txt": [
+      2024,
+      4,
+      29,
+      16,
+      49,
+      52
+    ]
+  },
+  "ids_unicos": true,
+  "todos_com_viagem_cadastrada": true,
+  "pontos_inferidos_de_corredor": false,
+  "cadastro_referencia": "abril de 2024, snapshot 29/04/2024",
+  "limite": "Sem datas individuais. A validade declarada do feed não reconstrói mudanças em cada mês do ano."
+}

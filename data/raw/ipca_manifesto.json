@@ -1,0 +1,9 @@
+{
+  "fonte": "IBGE/SIDRA",
+  "tabela": 1737,
+  "variavel": 2266,
+  "url": "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/2266/p/201106-202412/d/v2266%2013",
+  "acesso": "2026-10-28",
+  "sha256": "e0ea3361b4355bc1be6a6f0174e4ca5d7d7100c99c5bd99fdf0defaca0f8f852",
+  "convencao": "Número-índice do próprio mês da transação; preços equivalentes ao fim do mês, reais de dez/2024."
+}

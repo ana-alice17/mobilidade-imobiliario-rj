@@ -1,0 +1,17 @@
+{
+  "ano_transacoes": 2024,
+  "limite_principal_m": 1000,
+  "universo_precos_2024": 43670,
+  "amostra_espacial_2024": 32320,
+  "amostra_comum_quatro_modalidades": 27227,
+  "modais": {
+    "Metrô": "dist_ref_metro_m",
+    "BRT": "dist_ref_brt_m",
+    "VLT": "dist_ref_vlt_m",
+    "BRS": "dist_ref_brs_m"
+  },
+  "definicao": "Perto: percurso estimado até o acesso cadastrado de até 1000 m; longe: percurso maior entre classificáveis.",
+  "limite_historico": "Cadastro BRS de 2024 não retroagido. Rede pedestre contemporânea aplicada às transações de 2024.",
+  "comparacoes": "Descritivas. O complemento aproxima o perfil por distância com duas curvas.",
+  "unidade": "Reais de dezembro de 2024 por m²; variância em (R$/m²)²."
+}

@@ -1,0 +1,36 @@
+{
+  "ano_comparacao": 2024,
+  "n_locais": 62329,
+  "limiar_principal_m": 1000,
+  "rede_osm": "2026-10-27; não é reconstrução histórica das ruas/entradas",
+  "brs": "GTFS oficial SMTR 01Q0424, vigência declarada 2024, preservado TUMI/TDC",
+  "datas": "Ano de referência não identifica operação em cada dia da transação.",
+  "modalidades": [
+    {
+      "modal": "metro",
+      "pontos_conectados": 99,
+      "pontos_ou_estacoes_sem_acesso_conectado": 11,
+      "origens_com_rota": 56870
+    },
+    {
+      "modal": "brt",
+      "pontos_conectados": 152,
+      "pontos_ou_estacoes_sem_acesso_conectado": 0,
+      "origens_com_rota": 60489
+    },
+    {
+      "modal": "vlt",
+      "pontos_conectados": 30,
+      "pontos_ou_estacoes_sem_acesso_conectado": 1,
+      "origens_com_rota": 56870
+    },
+    {
+      "modal": "brs",
+      "pontos_conectados": 254,
+      "pontos_ou_estacoes_sem_acesso_conectado": 1,
+      "origens_com_rota": 56887
+    }
+  ],
+  "arquivo": "data\\processed\\acesso_2024_caminhada.csv.gz",
+  "sha256": "9fe4a260b2bed8bc2c41271c656174ee5766a7c729b0d18b2c5dae4f8ffef419"
+}

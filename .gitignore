@@ -1,10 +1,18 @@
+# Ambiente Python
 .venv/
+.validacao-deps/
+.validacao-jupyter/
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
+
+# Dados e caches: pesados demais para o git (CSVs > 100 MB, rede OSM ~130 MB).
+# Acompanham o zip de entrega e podem ser reobtidos das fontes citadas no README.
+data/
+cache/
+
+# Pacotes e artefatos locais
+*.zip
 *.sqlite*
 *.log
-cache/
-data/intermediate/
-data/processed/*.csv
 saida_itbi_2011_2024/

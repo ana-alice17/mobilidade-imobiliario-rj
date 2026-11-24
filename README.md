@@ -7,7 +7,7 @@ Ana Alice Silva, Henrique Lara e Mayara A. P. Bomback.
 
 - [Artigo com resultados e gráficos](notebooks/05_artigo.ipynb).
 - [Slides do marco 2](slides/marco_2.pdf) e [slides do marco 3](slides/marco_3.pdf).
-- [Declaração de contribuições](docs/Declaração%20de%20contribuições.pdf).
+- [Declaração de contribuições](notebooks/Declaração%20de%20contribuições.pdf).
 
 O estudo descreve preços residenciais do ITBI de julho de 2011 a dezembro de
 2024, corrigidos pelo IPCA para reais de dezembro de 2024. A base principal tem
@@ -18,12 +18,11 @@ em 2024. Proximidade significa percurso a pé de até 1 km, com testes a 500, 80
 
 ## Organização
 
-- `notebooks/`: 01 ITBI, 02 mobilidade, 03 integração, 04 análise imobiliária e 05 artigo.
+- `notebooks/`: 01 ITBI, 02 mobilidade, 03 integração, 04 análise imobiliária, 05 artigo e relatório contribuições.
 - `src/`: módulos utilizados pelos notebooks.
 - `data/raw/`: fontes originais, IPCA e manifestos de origem.
 - `data/processed/`: bases finais compactadas e camadas geográficas.
 - `resultados/`: tabelas de apoio e entradas espaciais reutilizadas.
-- `docs/`: metodologia, caminhada, fontes, proposta e contribuições.
 - `slides/`: apresentações em PDF dos marcos 2 e 3.
 
 ## Executar
@@ -46,7 +45,5 @@ não está implementada nesses cinco notebooks. Modos opcionais de nova
 geocodificação, exemplo OSM e preparação cartográfica exigem dependências e dados
 adicionais e podem consultar serviços externos.
 
-Detalhes e limitações: [metodologia](docs/METODOLOGIA.md),
-[percursos a pé](docs/CAMINHADA.md), [fontes BRS](docs/FONTES_BRS.md) e
-[contexto histórico](docs/FONTES_EVENTOS.md). Dados OpenStreetMap © contribuidores,
+Dados OpenStreetMap © contribuidores,
 sob [ODbL](https://www.openstreetmap.org/copyright).
